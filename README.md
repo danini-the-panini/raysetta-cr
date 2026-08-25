@@ -1,18 +1,18 @@
 # raysetta
 
-TODO: Write a description here
+Crystal implementations of [Raysetta](https://github.com/danini-the-panini/raysetta)
 
 ## Installation
 
-TODO: Write installation instructions here
+```sh
+$ crystal build src/raysetta.cr --output bin/
+```
 
 ## Usage
 
-TODO: Write usage instructions here
-
-## Development
-
-TODO: Write development instructions here
+```sh
+$ bin/raysetta scene.json -w 1920 -h 1080 -s 500 -d 50 > out.ppm
+```
 
 ## Contributing
 
@@ -24,4 +24,4 @@ TODO: Write development instructions here
 
 ## Contributors
 
-- [Dani Smith](https://github.com/your-github-user) - creator and maintainer
+- [Dani Smith](https://github.com/danini-the-panini) - creator and maintainer
