@@ -1,0 +1,20 @@
+name: raysetta
+version: 0.1.0
+
+authors:
+  - Dani Smith <code@danini.dev>
+
+targets:
+  raysetta:
+    main: src/raysetta.cr
+
+crystal: '>= 1.21.0'
+
+dependencies:
+  progress:
+    github: askn/progress
+  stumpy_png:
+    github: stumpycr/stumpy_png
+    version: "~> 5.0"
+
+license: MIT
